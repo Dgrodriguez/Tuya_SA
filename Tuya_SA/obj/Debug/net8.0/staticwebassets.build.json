@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "0bsnqJSUalYFOJ/eJlNTnktytwReLMVrhEwrrRJbmBg=",
+  "Source": "Tuya_SA",
+  "BasePath": "_content/Tuya_SA",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
