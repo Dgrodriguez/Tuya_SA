@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="05748572-9472-48cf-a57e-c3887a7d145f" name="Daniel@DANIEGO 2025-05-11 19:46:58" runUser="Daniego\Daniel" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-05-11T19:46:58.1043065-05:00" queuing="2025-05-11T19:46:58.1043071-05:00" start="2025-05-11T19:46:54.3540139-05:00" finish="2025-05-11T19:46:58.1187280-05:00" />
+  <TestSettings name="default" id="97f8b84a-8bdb-403d-8fa1-67ed991ebc23">
+    <Deployment runDeploymentRoot="Daniel_DANIEGO_2025-05-11_19_46_58" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d28b162f-5631-4177-bad4-9536f7b7b154" testId="d8f9e7c3-4b4f-26eb-f900-4c98e0ce811b" testName="OrderControllerTests.CreateOrder_DeberiaGuardarOrden_CuandoClienteExiste" computerName="DANIEGO" duration="00:00:01.6375177" startTime="2025-05-11T19:46:55.7221229-05:00" endTime="2025-05-11T19:46:57.3728807-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d28b162f-5631-4177-bad4-9536f7b7b154" />
+    <UnitTestResult executionId="04166046-eb94-4a83-a417-1f5332849a99" testId="7afcce29-1e8d-a9d6-f255-a6b3eda3b970" testName="IntegrationTests.GetCustomers_DeberiaRetornarListaDeClientes" computerName="DANIEGO" duration="00:00:02.1254327" startTime="2025-05-11T19:46:55.7193956-05:00" endTime="2025-05-11T19:46:57.8565824-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04166046-eb94-4a83-a417-1f5332849a99" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="OrderControllerTests.CreateOrder_DeberiaGuardarOrden_CuandoClienteExiste" storage="c:\users\dgrga\onedrive\documentos\programacion\tuya_sa\tuya_sa\tuya_sa\bin\debug\net8.0\tuya_sa.dll" id="d8f9e7c3-4b4f-26eb-f900-4c98e0ce811b">
+      <Execution id="d28b162f-5631-4177-bad4-9536f7b7b154" />
+      <TestMethod codeBase="C:\Users\dgrga\OneDrive\Documentos\programacion\tuya_sa\Tuya_SA\Tuya_SA\bin\Debug\net8.0\Tuya_SA.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OrderControllerTests" name="CreateOrder_DeberiaGuardarOrden_CuandoClienteExiste" />
+    </UnitTest>
+    <UnitTest name="IntegrationTests.GetCustomers_DeberiaRetornarListaDeClientes" storage="c:\users\dgrga\onedrive\documentos\programacion\tuya_sa\tuya_sa\tuya_sa\bin\debug\net8.0\tuya_sa.dll" id="7afcce29-1e8d-a9d6-f255-a6b3eda3b970">
+      <Execution id="04166046-eb94-4a83-a417-1f5332849a99" />
+      <TestMethod codeBase="C:\Users\dgrga\OneDrive\Documentos\programacion\tuya_sa\Tuya_SA\Tuya_SA\bin\Debug\net8.0\Tuya_SA.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="IntegrationTests" name="GetCustomers_DeberiaRetornarListaDeClientes" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d8f9e7c3-4b4f-26eb-f900-4c98e0ce811b" executionId="d28b162f-5631-4177-bad4-9536f7b7b154" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7afcce29-1e8d-a9d6-f255-a6b3eda3b970" executionId="04166046-eb94-4a83-a417-1f5332849a99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.0+00ab0a9ec4 (64-bit .NET 8.0.15)&#xD;
+[xUnit.net 00:00:00.20]   Discovering: Tuya_SA&#xD;
+[xUnit.net 00:00:00.29]   Discovered:  Tuya_SA&#xD;
+[xUnit.net 00:00:00.34]   Starting:    Tuya_SA&#xD;
+ Conectado a SQL Server: DANIEGO\AAAA, Base: Tuya_Sa&#xD;
+info: Program[0]&#xD;
+       Conexi�n exitosa con SQL Server!&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (46ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT [c].[Id], [c].[CreatedAt], [c].[Email], [c].[Name]&#xD;
+      FROM [Customers] AS [c]&#xD;
+[xUnit.net 00:00:02.55]   Finished:    Tuya_SA&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
