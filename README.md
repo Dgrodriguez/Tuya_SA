@@ -1,7 +1,7 @@
 ﻿# Tuya_SA - Backend .NET con Clean Architecture
 
 ## Descripción  
-Este repositorio contiene el desarrollo del backend para Tuya_SA, implementado en .NET 8 y siguiendo el principio de Clean Architecture para una estructura modular y mantenible.
+Este repositorio contiene el desarrollo del backend, implementado en .NET 8 y siguiendo el principio de Clean Architecture para una estructura modular y mantenible.
 
 ## Tecnologías Utilizadas  
 - .NET Core 8  
